@@ -46,7 +46,25 @@ fun check(): Boolean {
         "/magisk",
         "/sbin_orig",
         "/data/magisk",
-        "/sbin/.core"
+        "/data/adb/magisk",
+        "/data/adb/magisk.db",
+        "/data/adb/magisk32",
+        "/data/adb/magisk64",
+        "/data/adb/magiskboot",
+        "/data/adb/magiskinit",
+        "/bin/magisk",
+        "/bin/magiskinit",
+        "/bin/magiskpolicy",
+//        "/data/data/io.github.huskydg.magiskonnox",
+//        "/data/user_de/0/io.github.huskydg.magiskonnox",
+        "/data/data/com.fox2code.mmm/cache/magisk_alt_repo",
+        "/data/data/com.fox2code.mmm/cache/magisk_repo",
+        "/etc/init/magisk",
+        "/etc/init/magisk/magisk32",
+        "/etc/init/magisk/magisk64",
+        "/etc/init/magisk/magiskboot",
+        "/etc/init/magisk/magiskinit",
+        "/etc/init/magisk.rc",
     )
 
     for (p in paths) {
